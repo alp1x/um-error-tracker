@@ -7,6 +7,8 @@ Most of you are missing errors due to too many stream files at server startup an
 * command: ``/errortracker``
 
 ## Development
+``git clone https://github.com/alp1x/um-error-tracker``
+
 ``cd um-error-tracker``
 
 ``cd web``
