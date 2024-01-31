@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+
+  --errors: #c35555;
+  --warnings: #d9a13b;
+  --updates: #1fa989;
+  --fixed: #46a943;
+  --fxmanifest: #b3b3b3;
+  --inprogress: #a93795
+}
+
+.bg-color {
+  background-color: #2a2b2f;
+}
+.box {
+  background-color: #24262c;
+  width: 22rem;
+  height: 17rem;
+}
+.card-color {
+  background-color: #32353d;
+}
+.column-content::-webkit-scrollbar {
+  display: none;
+}
+.column-content {
+  height: 10rem;
+  overflow-y: scroll;
+}
+.errors-class {
+  color: var(--errors);
+}
+.warnings-class {
+  color: var(--warnings);
+}
+.updates-class {
+  color: var(--updates);
+}
+.fixed-class {
+  color: var(--fixed);
+}
+.fxmanifest-class {
+  color: var(--fxmanifest);
+}
+.inprogress-class {
+  color: var(--inprogress);
+}
+.errors-bg {
+  background-color: var(--errors);
+}
+.warnings-bg {
+  background-color: var(--warnings);
+}
+.updates-bg {
+  background-color: var(--updates);
+}
+.fixed-bg {
+  background-color: var(--fixed);
+}
+.fxmanifest-bg {
+  background-color: var(--fxmanifest);
+}
+.inprogress-bg {
+  background-color: var(--inprogress);
+}
