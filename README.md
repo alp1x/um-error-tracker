@@ -2,7 +2,7 @@
 Most of you are missing errors due to too many stream files at server startup and sometimes confused what exactly is not working, so I made a small tool that monitors the (server-side) console, it takes the entire console from the time the server is started and monitors it instantly
 
 ## Usage
-* first download from [here](#) **[not source!]**
+* first download from [here](https://github.com/alp1x/um-error-tracker/releases/latest) **[not source!]**
 * ``server.cfg > ensure um-error-tracker``
 * command: ``/errortracker``
 
